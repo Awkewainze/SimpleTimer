@@ -1,0 +1,33 @@
+{
+  "name": "@awkewainze/simpletimer",
+  "version": "1.0.0",
+  "description": "A simple timer library.",
+  "main": "dist/timer.js",
+  "types": "dist/timer.d.ts",
+  "scripts": {
+    "prepack": "npm run build && npm test",
+    "build": "tsc",
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Awkewainze/SimpleTimer.git"
+  },
+  "author": "Nova Walseth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Awkewainze/SimpleTimer/issues"
+  },
+  "homepage": "https://github.com/Awkewainze/SimpleTimer#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.6.1",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@awkewainze/checkverify": "^1.0.1",
+    "@awkewainze/simpleduration": "^1.0.0"
+  }
+}
